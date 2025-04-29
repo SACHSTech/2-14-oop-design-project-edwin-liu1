@@ -5,4 +5,12 @@ public class Reply extends Post{
         this.op = originalPost;
     }
 
+    public Post getOP(){
+        return op;
+    }
+
+    @Override
+    public String compile(){
+        return "";
+    }
 }

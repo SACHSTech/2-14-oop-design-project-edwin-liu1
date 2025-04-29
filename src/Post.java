@@ -29,4 +29,6 @@ abstract class Post{
     public int getRating(){
         return upVotes - downVotes;
     }
+
+    abstract String compile();
 }
