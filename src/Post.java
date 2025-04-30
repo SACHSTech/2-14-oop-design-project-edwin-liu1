@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 abstract class Post{
     protected String poster;
     protected String text;
@@ -30,5 +32,5 @@ abstract class Post{
         return upVotes - downVotes;
     }
 
-    abstract String compile();
+    abstract ArrayList<String> compile();
 }
